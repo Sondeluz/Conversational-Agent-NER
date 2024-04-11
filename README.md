@@ -11,4 +11,6 @@ It consists of:
 
 This system was developed during the Natural Language Interaction course from Intelligent Interactive Systems @ Universitat Pompeu Fabra, alongside ![@dleybz](https://github.com/dleybz) and ![@anacaicoya](https://github.com/anacaicoya)
 
-Note: This is the model training notebook, and is intended to be run on a GPU host. The full Conversational Agent is available at: TBD
+Note: This repo only contains the NER model's training notebook, and is intended to be run on a GPU host. The full Conversational Agent is available at: TBD
+
+The slides showing the complete system are also uploaded on `slides.pdf`
