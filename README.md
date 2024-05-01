@@ -4,7 +4,7 @@
 
 A NER system for the Semantic frame slot filling task of a Conversational Agent for hotels and restaurants, trained and evaluated on the MultiWOZ dataset. 
 It consists of:
-- A NER system based on a Deberta-v3-base model, trained using the flair NLP library.
+- A NER system based on a Deberta-v3-base model, fine-tuned using the flair NLP library.
     - Detects directly mentioned slots (restaurant food types, restaurant and hotel names...)
     - Detects `question` and `dontcare` direct mentions
 - A K-NN classifier that is fed scaled sentence embeddings of user utterances using bge-large-en-v1.5, used to classify `question` and `dontcare` user utterances that indirectly refer to previously mentioned slots.
